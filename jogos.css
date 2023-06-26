@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  
+}
+
+body {
+    background-color: #000000e3;
+}
+
+
+.container{
+    background-color: #000000;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 20;
+    padding-right: 15px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li h1{
+    color: #ff0077;
+    text-decoration: none;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px #ff0077;
+
+}
+
+header ul li{
+    display:inline-block;
+    margin: 0px;
+}
+
+header a img:hover {
+    background-color: #ffffff;
+    border-radius: 150px;
+    transition: 1s;
+}
+
+header a img {
+    width: 60px;
+}
+
+#logo{
+    width: 60px;
+}
+
+
+button{
+    height: 65px;
+    padding: 10px 10px;
+    background: transparent;
+    border: 2px solid #ff0077;
+    border-radius: 15px;
+    color: #ff0077;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button i{
+    color: #ff0077;
+    font-size: 70px;
+}
+
+
+button:hover{
+    background-color: #ffffff;
+}
+
+
+::-webkit-scrollbar{
+    background-color: black;
+    border: #FF0077 solid 1px;
+    width: 5px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #FF0077;
+}
+
+/*----------------------carsd------------------------------------------------------------*/
+
+.caixa1{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 200px;
+    padding: 15px;
+    color: #ff0077;
+}
+
+.card1 iframe{
+   border-radius: 15px;
+   border: solid #ff0077;
+   width:700px;
+   height:380px;
+   
+}
+
+.card1  h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.card1 img{
+    background-color: #ffffff;
+    border: solid 5px #FF0077;
+    border-radius: 15px;
+}
+
+.card2{
+    margin-top: 10px;
+    text-align: justify;
+    border: solid #ff0077;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    background-color: #FF0077;
+}
+
+.card2 img{
+    width: 560px;
+    border-radius: 15px;
+}
+
+.card2 button{
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card2 button:hover{
+    background-color: #000000;
+}
+
+.caixa2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 200px;
+    padding: 15px;
+    color: #ff0077;
+}
+
+.card3  img{
+    width: 700px;
+    height: 600px;
+    border-radius: 15px;
+    border: solid #FF0077;
+}
+
+.card3 h3{
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: 25px;
+}
+
+
+.card4 h3{
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.card4 iframe{
+   border-radius: 15px;
+   border: 2px solid #FF0077;
+   box-shadow: 0px 0px 10px #FF0077;
+   width:590px;
+   height:500px;
+}
+
+#compra{
+    text-align: center;
+    background-color: #FF0077;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caixa3{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+    padding: 15px;
+    color: #ff0077;
+}
+
+.card5{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.card6{
+   
+    display: flex;
+    grid-gap: 20px;
+    padding: 15px;
+    color: #ff0077;
+}
+
+.card6 button{
+ margin-top: 20px;
+}
+
+.c1{
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #FF0077;
+}
+
+.c2{
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #FF0077;
+}
+
+.c3{
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #FF0077;
+}
+
+
+
+
+
+/*SISTEMA DE CARDS*/
+
+
+
+footer {
+    bottom: 0px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #000000;
+    font-family:'Raleway', sans-serif ;
+}
+
+footer li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+footer h2{
+    font-size: 2rem;
+}
+
+footer .links,.copy {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-self: center;
+}
+
+footer a,footer ol {
+    color: #FF0077;
+    text-decoration: none;
+}
+
+#redes {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    
+}
+
+#redes:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    border-radius: 150px;
+}
+
+.copy {
+    background-image: linear-gradient(to left, black, #FF0077);
+    width: 100%;
+    border-top-left-radius: 50%;
+}
+
+.logo {
+    font-family: 'Simply Rounded', sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-transform: capitalize;
+    transition: all 2s;
+}
+
+.copy p {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#up {
+    color: #FF0077;
+}
+
+
+@media screen and (max-width:767px) and (max-width:1023px) {
+
+    nav.menu-lateral {
+        display: none;
+
+    }
+
+    .container {
+        background-color: black;
+        font-size: 5px;
+    }
+
+    .contato{
+        display: none;
+    }
+
+    .container button{
+        display: none;
+    }
+
+    header nav {
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .caixa1{
+        display: grid;
+    }
+
+    .caixa1 iframe{
+        width: 370px;
+    }
+
+    .caixa2{
+        display: grid;
+    }
+
+    .caixa3{
+        display: grid;
+    }
+
+    .card1{
+        text-align: center;
+        margin-top: 40px;
+        width: auto;
+    }
+
+    .card1 img{
+        width: 370px;
+    }
+
+    .card2{
+        text-align: center;
+        width: 380px;
+    }
+
+    .card2 img{
+        width: 340px;
+    }
+
+    .caixa3{
+        display: grid;
+        text-align: center;
+        width: auto;
+    }
+
+    .card3 img{
+        width: 380px;
+        height: 300px;
+    }
+
+    .card4{
+        text-align: center;
+    }
+
+    .card4 iframe{
+        width: 380px;
+    }
+
+    .card5{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .card6{
+       display: inline;
+       margin-bottom: 100px;
+    }
+
+    .c1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .event-info::before {
+        width: auto;
+        height: auto;
+
+    }
+
+    .btn-expandir {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .menuzinho {
+        bottom: 0vh;
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color: #000;
+        padding: 5px;
+    }
+
+    .esporte {
+        margin-top: 4px;
+        margin-left: 10px;
+        background-color: black;
+        background-image: url(img/2-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+    }
+
+    .teatro {
+        margin-top: 4px;
+        margin-left: 10px;
+        background-color: aqua;
+        background-color: black;
+        background-image: url(img/3-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+    }
+
+    .musica {
+        margin-top: 4px;
+        margin-left: 10px;
+        background-color: black;
+        background-image: url(img/6-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+    }
+
+    .cinema {
+        margin-top: 4px;
+        margin-left: 10px;
+        background-color: black;
+        background-image: url(img/4-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+    }
+
+    .nsei {
+        margin-top: 4px;
+        margin-left: 10px;
+        background-color: chartreuse;
+        background-color: black;
+        background-image: url(img/1-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+    }
+}
